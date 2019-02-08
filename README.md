@@ -4,17 +4,14 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Generic badge](https://img.shields.io/badge/Developing-Continue-green.svg)](https://shields.io/)
 
-##  [Kim Minsu](https://github.com/alstn2468)
-## [ [Facebook](https://www.facebook.com/profile.php?id=100003769223078) ] [ [Github](https://github.com/alstn2468) ] [ [LinkedIn](https://www.linkedin.com/in/minsu-kim-336289160/) ] [ [Blog](https://alstn2468.github.io/) ]<br/>
-
 <br/>
+
+##  [Kim Minsu](https://github.com/alstn2468)<br/><br/>[ [Facebook](https://www.facebook.com/profile.php?id=100003769223078) ] [ [Github](https://github.com/alstn2468) ] [ [LinkedIn](https://www.linkedin.com/in/minsu-kim-336289160/) ] [ [Blog](https://alstn2468.github.io/) ]<br/>
 
 ## Available Function
 - You can write blog post.
 - You can read the blog post.
 - You can search for blog post by title.
-
-<br/>
 
 ## To Do
 - [ ] Pagination
@@ -22,9 +19,7 @@
 - [ ] Post Delete
 - [ ] Page Design
 
-<br/>
-
-### Requirement
+## Requirement
 - Python (3.6.5)
 - Django     (2.1.5)
 - Pillow     (5.4.1)
@@ -32,7 +27,7 @@
 
 <br/>
 
-### License
+## License
 <img align="right" src="http://opensource.org/trademarks/opensource/OSI-Approved-License-100x137.png">
 
 The class is licensed under the [MIT License](http://opensource.org/licenses/MIT):
