@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+{% extends 'base.html' %}
+
+{% block contents %}
+<body>
+    {% for blog in blogs.all %}
+    <div class="container">
+        <br/>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"> {{ blog.title }} </h5>
+                <h6 class="card-subtitle mb-2 text-muted"> {{ blog.pub_date }} </h6>
+                <p class="card-text"> {{ blog.summary }} </p>
+                <a href="#" class="card-link"><a href="{% url 'detail' blog.id %}">...more</a></a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <br>
+</body>
+{% endblock %}
+
+</html>
