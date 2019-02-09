@@ -10,8 +10,13 @@
 - You can write blog post.
 - You can read the blog post.
 - You can search for blog post by title.
+- You can sign up your account.
+- You can log-in and log-out with your account.
 
 ## To Do
+- [x] Login (2019.02.10)
+- [x] Logout (2019.02.10)
+- [x] Sign Up (2019.02.10)
 - [ ] Pagination
 - [ ] Post Update
 - [ ] Post Delete
