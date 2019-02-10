@@ -17,6 +17,7 @@
 - [x] Login (2019.02.10)
 - [x] Logout (2019.02.10)
 - [x] Sign Up (2019.02.10)
+- [ ] User Login Status Check
 - [ ] Pagination
 - [ ] Post Update
 - [ ] Post Delete
