@@ -12,12 +12,15 @@
 - You can search for blog post by title.
 - You can sign up your account.
 - You can log-in and log-out with your account.
+- You can only write and log out when you log in.
+- You can check your username when you are logged in.
+- When you are not logged in, the sign up button and the Login button are activated.
 
 ## To Do
 - [x] Login (2019.02.10)
 - [x] Logout (2019.02.10)
 - [x] Sign Up (2019.02.10)
-- [ ] User Login Status Check
+- [x] User Login Status Check (2019.02.11)
 - [ ] Pagination
 - [ ] Post Update
 - [ ] Post Delete
