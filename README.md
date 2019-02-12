@@ -15,13 +15,15 @@
 - You can only write and log out when you log in.
 - You can check your username when you are logged in.
 - When you are not logged in, the sign up button and the Login button are activated.
+- It shows three posts per page.
+
 
 ## To Do
 - [x] Login (2019.02.10)
 - [x] Logout (2019.02.10)
 - [x] Sign Up (2019.02.10)
 - [x] User Login Status Check (2019.02.11)
-- [ ] Pagination
+- [x] Pagination (2019.02.12)
 - [ ] Post Update
 - [ ] Post Delete
 - [ ] Page Design
