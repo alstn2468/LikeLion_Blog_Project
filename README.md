@@ -29,10 +29,19 @@
 - [ ] Page Design
 
 ## Requirement
-- Python (3.6.5)
-- Django     (2.1.5)
-- Pillow     (5.4.1)
-- pytz       (2018.9)
+- python (3.6.5)
+- dj-database-url (0.5.0)
+- Django (2.1.5)
+- Faker (1.0.2)
+- gunicorn (19.9.0)
+- Pillow (5.4.1)
+- psycopg2-binary (2.7.7)
+- python-dateutil (2.8.0)
+- pytz (2018.9)
+- six (1.12.0)
+- text-unidecode (1.2)
+- whitenoise (4.1.2)
+
 
 ## License
 <img align="right" src="http://opensource.org/trademarks/opensource/OSI-Approved-License-100x137.png">
