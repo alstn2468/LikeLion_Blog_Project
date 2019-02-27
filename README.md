@@ -16,7 +16,8 @@
 - You can check your username when you are logged in.
 - When you are not logged in, the sign up button and the Login button are activated.
 - It shows three posts per page.
-- You can delete blog post.
+- You can delete your blog post.
+- You can edit your blog post.
 
 
 ## To Do
@@ -25,7 +26,7 @@
 - [x] Sign Up (2019.02.10)
 - [x] User Login Status Check (2019.02.11)
 - [x] Pagination (2019.02.12)
-- [ ] Post Update
+- [x] Post Edit (2019.02.27)
 - [x] Post Delete (2019.02.26)
 - [ ] Page Design
 
