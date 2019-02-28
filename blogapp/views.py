@@ -5,13 +5,19 @@ from .models import Blog
 from .forms import BlogPost
 
 
-def home(request):
-    blog_list = Blog.objects.all()
-
-    paginator = Paginator(blog_list, 3)
+def paging(request, list, num):
+    paginator = Paginator(list, num)
     page = request.GET.get('page')
 
     posts = paginator.get_page(page)
+
+    return posts
+
+
+def home(request):
+    blog_list = Blog.objects.all()
+
+    posts = paging(request, blog_list, 3)
 
     return render(request, "home.html", {
         "posts": posts,
@@ -45,8 +51,10 @@ def search(request):
     if keyword:
         post_list = post_list.filter(title__icontains=keyword)
 
+    posts = paging(request, post_list, 3)
+
     return render(request, "search.html", {
-        'post_list': post_list,
+        'posts': posts,
         'keyword': keyword
     })
 
