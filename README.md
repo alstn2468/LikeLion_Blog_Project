@@ -32,7 +32,7 @@
 ## Requirement
 - python (3.6.5)
 - dj-database-url (0.5.0)
-- Django (2.1.5)
+- Django (1.11.24)
 - Faker (1.0.2)
 - gunicorn (19.9.0)
 - Pillow (5.4.1)
